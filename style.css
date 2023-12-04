@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1y6VdeiC-tt7gmutP4MBOgqpBbWmLOS4iA&usqp=CAU);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+}
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRpUH9eNp9UV2vYDwBNMwkWY81LPI6wBD93A&usqp=CAU);
+    background: position x 75px;;
+    padding: 1rem;
+    text-align: center;
+}
+footer{
+    background-image: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2luZW1hfGVufDB8fDB8fHww);
+    padding: 1rem;
+  border: rgb(14, 14, 14);
+  margin: 1rem;
+  width: 100%;
+  height: 02%;
+  position: fixed;
+  bottom: 0%;
+}
+
+header h1 {
+    color: #fff;
+    display: inline;
+}
+h2{
+    color: #fff;
+}
+
+nav ul {
+    color: #fff;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    color: #fff;
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.shows {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.show img {
+    width: 100%;
+    height: auto;
+}
+
+.show h3 {
+    color: #fff;
+    margin: 1rem 0;
+}
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
